@@ -10,7 +10,7 @@ public class Main02 {
         System.out.println(verifyPassword("PASSWORD567"));
     }
 
-    public static boolean verifyPassword(String password){
+    public static boolean verifyPassword(String password) {
         Pattern pattern = Pattern.compile("(?=.*[a-z])(?=.*[A-Z])(?=.*[\\d])\\w{10,15}");
         return pattern.matcher(password).matches();
     }
