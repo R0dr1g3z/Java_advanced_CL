@@ -9,9 +9,9 @@ public class Main01 {
         Scanner scan = new Scanner(System.in);
         Set<String> strings = new HashSet<>();
         int count = 0;
-        while(scan.hasNextLine()){
+        while (scan.hasNextLine()) {
             String s = scan.nextLine();
-            if (s.equals("exit")){
+            if (s.equals("exit")) {
                 break;
             }
             strings.add(s);
